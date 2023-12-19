@@ -3,14 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Etch-a-Sketch!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Etch-a-sketch!</h1>
+      <h1>Etch-a-Sketch!</h1>
     </header>
-    <div class="grid-container"></div>
+    <main>
+      <div class="grid-container"></div>
+      <section class="controls">
+        <button class="clear">Clear</button>
+        <button class="sixteen">16px</button>
+        <button class="thirty-two">32px</button>
+        <button class="sixty-four">64px</button>
+        <button class="max">Max</button>
+      </section>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>

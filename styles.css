@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 body {
@@ -10,14 +11,39 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: darkslategray;
+}
+
+h1 {
+  font-family: "Press Start 2P";
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .grid-container {
   display: grid;
-  height: 32rem;
-  width: 32rem;
-  margin: 0 auto;
-  padding: 1rem;
-  border: 3px solid black;
-  border-radius: 10px;
+  height: 25rem;
+  width: 25rem;
+  margin: 1.2rem auto;
+  box-shadow: 0 5px 20px 5px rgba(18, 31, 31, 0.646);
+}
+
+button {
+  padding: 0.6rem;
+  border: 1.2px solid white;
+  background-color: transparent;
+  font-family: "play";
+  font-size: 1rem;
+}
+
+button:hover,
+button:focus {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.192);
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
